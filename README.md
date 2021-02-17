@@ -22,7 +22,7 @@ Digite
 user.email=seuemail@gmail.com
 user.name=seunome<b>
 
-ssh-keygen -t rsa -b 4096 -C "seuemail@gmail.com"
+<i>ssh-keygen -t rsa -b 4096 -C "seuemail@gmail.com"<i>
 
 Durante o processo irá aparecer escrito no terminal Enter a file in which to save the key, 
 quando isso acontecer pressione Enter para aceitar a localização padrão /home/you/.ssh/id_rsa .
@@ -33,21 +33,21 @@ Enter same passphrase again: [Type passphrase again]
 
 Primeiro você deve iniciar o ssh-agent em background:
 
-eval "$(ssh-agent -s)"
+<i>eval "$(ssh-agent -s)"<i>
 
 Agora você deve adicionar sua chave privada SSH ao ssh-agent . Para isso execute o comando abaixo no terminal:
 
-ssh-add ~/.ssh/id_rsa
+<i>ssh-add ~/.ssh/id_rsa<i>
 
- Como o xclip não vem instalado por padrão na maioria das distribuições,
- precisaremos instalá-lo usando o comando a seguir:
-sudo apt-get install xclip
+Como o xclip não vem instalado por padrão na maioria das distribuições,
+precisaremos instalá-lo usando o comando a seguir:
+
+<i>sudo apt-get install xclip
 
  Agora utilize o comando abaixo para copiar o conteúdo da sua chave id_rsa.pub
  Para garantir que o conteúdo foi copiado dê Ctrl + V em um editor de texto
-xclip -sel clip < ~/.ssh/id_rsa.pub
+ 
+<i>xclip -sel clip < ~/.ssh/id_rsa.pub<i>
 
 Caso o xclip não funcione, execute o comando abaixo e copie manualmente a saída do terminal.
-cat ~/.ssh/id_rsa.pub
-
-cat ~/.ssh/id_rsa.pub
+<i>cat ~/.ssh/id_rsa.pub<i>
