@@ -20,7 +20,7 @@ Digite
  
 <b>Seu terminal deve conter algo similar a isso:  
 user.email=seuemail@gmail.com
-user.name=seunome<b>
+user.name=seunome
 
 <i>ssh-keygen -t rsa -b 4096 -C "seuemail@gmail.com"<i>
 
