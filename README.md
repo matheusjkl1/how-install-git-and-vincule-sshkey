@@ -38,12 +38,12 @@ Agora você deve adicionar sua chave privada SSH ao ssh-agent . Para isso execut
 
 ssh-add ~/.ssh/id_rsa
 
-# Como o xclip não vem instalado por padrão na maioria das distribuições,
-# precisaremos instalá-lo usando o comando a seguir:
+ Como o xclip não vem instalado por padrão na maioria das distribuições,
+ precisaremos instalá-lo usando o comando a seguir:
 sudo apt-get install xclip
 
-# Agora utilize o comando abaixo para copiar o conteúdo da sua chave id_rsa.pub
-# Para garantir que o conteúdo foi copiado dê Ctrl + V em um editor de texto
+ Agora utilize o comando abaixo para copiar o conteúdo da sua chave id_rsa.pub
+ Para garantir que o conteúdo foi copiado dê Ctrl + V em um editor de texto
 xclip -sel clip < ~/.ssh/id_rsa.pub
 
 Caso o xclip não funcione, execute o comando abaixo e copie manualmente a saída do terminal.
