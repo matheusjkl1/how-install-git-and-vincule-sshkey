@@ -1,4 +1,4 @@
-# how-install-git-and-vincule-sshkey
+# How install Git and vincule SSH KEY
 
 <b>sudo apt-get install git-all</b>
 
