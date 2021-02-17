@@ -16,7 +16,7 @@ Para isso certifique-se que você se encontra no diretório onde o arquivo .gitc
 <i>git version</i>
 
 Digite 
-<i>git config --list<i>
+<i>git config --list</i>
  
 <b>Seu terminal deve conter algo similar a isso:  
 user.email=seuemail@gmail.com
