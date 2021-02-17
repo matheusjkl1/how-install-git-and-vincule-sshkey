@@ -2,8 +2,8 @@
 
 <b>sudo apt-get install git-all</b>
 
-<b>git config --global user.name "Seu nome"</b>
-<b>git config --global user.email seuemail@exemplo.br</b>
+<b><i>git config --global user.name "Seu nome"</b>
+<b>git config --global user.email seuemail@exemplo.br</i></b>
 
 <b><i>git config --global core.editor "code --wait"</i></b>
 
