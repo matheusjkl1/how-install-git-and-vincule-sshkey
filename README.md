@@ -1,25 +1,26 @@
 # how-install-git-and-vincule-sshkey
-Install git and vincule ssh key tutorial
 
-sudo apt-get install git-all
+<i>sudo apt-get install git-all<i>
 
-git config --global user.name "Seu nome"
-git config --global user.email seuemail@exemplo.br
+<i>git config --global user.name "Seu nome"<i>
+<i>git config --global user.email seuemail@exemplo.br<i>
 
-git config --global core.editor "code --wait"
+<i>git config --global core.editor "code --wait"<i>
 
 Esse comando define o editor do .gitconfig como o VS Code , que é o editor que você usará ao longo curso. 
 Caso queira abrir o arquivo de configuração no VS Code basta executar em seu terminal o comando abaixo. 
 Para isso certifique-se que você se encontra no diretório onde o arquivo .gitconfig está localizado.
 
-code .gitconfig
+<i>code .gitconfig<i>
 
-git version
+<i>git version<i>
 
-Digite git config --list
-Seu terminal deve conter algo similar a isso:  
+Digite 
+<i>git config --list<i>
+ 
+<b>Seu terminal deve conter algo similar a isso:  
 user.email=seuemail@gmail.com
-user.name=seunome
+user.name=seunome<b>
 
 ssh-keygen -t rsa -b 4096 -C "seuemail@gmail.com"
 
