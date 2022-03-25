@@ -51,4 +51,5 @@ precisaremos instalá-lo usando o comando a seguir:
 <b><i>xclip -sel clip < ~/.ssh/id_rsa.pub</i></b>
 
 Caso o xclip não funcione, execute o comando abaixo e copie manualmente a saída do terminal.
-<b><i>cat ~/.ssh/id_rsa.pub</i></b>
+
+ <b><i>cat ~/.ssh/id_rsa.pub</i></b>
